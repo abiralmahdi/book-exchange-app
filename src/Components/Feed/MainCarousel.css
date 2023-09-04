@@ -1,0 +1,36 @@
+.c-img{
+    height:350px !important;
+    filter: brightness(30%) !important;
+    
+}
+
+.mainCarDiv{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.carousel{
+    width: 70% !important;
+    margin-left: 20px;
+    margin-top: 6%;
+}
+
+.carousel-item{
+    margin-top: 0;
+}
+
+.adImg{
+    width: 30% !important;
+    margin-top: 6%;
+}
+
+@media (max-width:520px){
+    .adImg{
+        display:none
+    }
+    .carousel{
+        margin: 0;
+        width: 100% !important;
+    }
+}

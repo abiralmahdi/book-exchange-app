@@ -1,0 +1,10 @@
+.deactivationForm > button{
+    background-color: rgb(226, 26, 11) !important;
+    color: white;
+    transition: 0.25s;
+    margin: 20px;
+}
+
+.deactivationForm > button:hover{
+    background-color: rgb(209, 5, 5) !important;
+}

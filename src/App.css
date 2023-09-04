@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+.msgBtn{
+  position: fixed; bottom: 20px; right: 20px; background-color: rgb(0, 0, 0);
+  box-shadow: 2px 2px 15px 5px #929292;
+  border-radius: 50%;
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.inbox{
+  position: fixed; bottom: 50px; right: 100px;
+  max-height: 70% !important;
+  background-color: black;
+  min-width: 30% !important;
+  border-radius: 20px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.inboxInner{
+  border-radius: 20px;
+  max-height: 300px !important;
+  overflow: auto;
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.IndivDm{
+  background-color: rgb(34, 33, 33);
+  cursor: pointer;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.IndivDm:hover{
+  background-color: rgb(26, 25, 25);
+}
+.chatBoxConversations{
+  min-height: 300px !important;
+  max-height: 300px !important;
+  overflow: auto;
+
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.modal{
+  position: fixed !important;
+  top: 10% !important;
 }
+
+.textFromHim {
+  max-width: 250px;
+  background-color: rgb(209, 209, 207);
+  border-radius: 10px;
+}
+
+.textFromMe{
+  max-width: 250px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+
+}
+.bg-black{
+  background-color: black;
+}
+
