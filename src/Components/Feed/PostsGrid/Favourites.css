@@ -1,0 +1,40 @@
+#alertt{
+    display: flex !important;
+}
+
+.cardRoot{
+    display: flex;
+    max-width: 100%;
+    margin: 20;
+    box-shadow: 1px 3px 10px #d1cfc9;
+}
+
+.content{
+    flex: 1 0 auto;
+}
+
+.controls {
+    display: 'flex';
+    align-items: 'center';
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+
+.details {
+    display: flex;
+    flex-direction: column
+  }
+
+  .cover{
+    width: 50% !important;
+  }
+
+@media (max-width:520px){
+    #alertt{
+        display:none !important
+    }
+    .cardRoot{
+        max-width: 50 !important;
+        display: block;
+    }
+}

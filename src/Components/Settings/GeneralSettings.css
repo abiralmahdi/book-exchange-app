@@ -1,0 +1,10 @@
+.genSettingsForm{
+    margin-top: 10% !important;
+}
+
+
+@media only screen and (max-width: 634px){
+	.genSettingsForm{
+        margin-top: 20% !important;
+    }
+}
